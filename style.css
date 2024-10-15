@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(5, 247, 247);
+    display:grid;
+    place-items: center;
+    
+    
+   
+}
+
+#stu{
+  
+   margin-top: 3vw;
+   font-size: 4.3vw;
+   font-family: "Roboto Condensed", sans-serif;
+}
+
+#container{
+    border: 2px solid black;
+    width: 38vw;
+    height: 38vw;
+    margin-top: 6vw;
+    border-radius: 1vw;
+    background-color: white;
+    box-shadow: 2px 3px 20px black;
+    display: flex;
+    justify-content: center;
+    margin-right: 3vw;
+    position: relative;
+    padding: 2vw;
+    
+    
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#jsdiv{
+    border: 2px solid black;
+    width: 48vw;
+    height: 38vw;
+    margin-top: 6vw;
+    border-radius: 1vw;
+    position: relative;
+    box-shadow: 2px 3px 20px black;
+    display: flex;
+    justify-content: center;
+    
+    padding: 2vw;
+
+}
+
+#name,#email,select,#roll{
+    width: 30vw;
+    margin-top: 5px;
+    height: 2.7vw;
+    border-radius: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+label{
+    
+font-size: 2vw;
+
+}
+#btn{
+    width: 10vw;
+   height: 2.5vw;
+   border-radius: 20vw;
+   margin-left: 10vw;
+   
+
+}
+
+#btn:hover{
+    background-color:rgb(0, 251, 251)
+}
+
+
+
+ th{
+   font-size: 1.5vw;
+   padding: 1.5vw;
+    border: 2px solid black;
+    background-color: black;
+    color: antiquewhite;
+    
+ }
+ #rolln{
+    width: 10vw;
+ }
+
+.set,.del{
+    width: 5vw;
+    height: 3vw;
+    background-color: black;
+    color: white;
+    border-radius: 5vw;
+    
+}
+
+
+
+

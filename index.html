@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1 id="stu">Student Registration Form</h1>
+</header>
+
+<main>
+    <div id="container">
+        <form>
+            <label for="name" ">Student Name:</label><br>
+            <input type="text" id="name" name="Student Name" >
+<br>
+            <label for="email">Email:</label><br>
+             <input type="email" id="email" name="id No." >
+             <br>
+             <label for="classes">Class:</label><br>
+             <select id="classes" name="Class:" >
+                <option></option>
+                <option value="Btech">Btech</option>
+                <option value="Bca">Bca</option>
+                <option value="other">other</option>
+             </select><br>
+             <label for="roll">Roll Number:</label><br>
+             <input type="number" id="roll" name="id No." >
+<br>
+             <button type="button" id="btn" >Submit</button>
+        </form>
+    </div>
+    <div id="jsdiv" >
+    
+        <table id="StudentTable" >
+            
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email....</th>
+                    <th>Class</th>
+                    <th id="rolln">Roll no.</th>
+                    <th > Reset</th>
+                    <th >Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- here the rows will be done through js-->
+            </tbody>
+            
+
+        </table>
+
+
+    </div>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
